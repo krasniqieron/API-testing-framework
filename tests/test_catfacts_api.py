@@ -47,11 +47,9 @@ def test_get_multiple_facts_with_limit_and_max_length():
     max_length = random.randint(10, 100)
     response = requests.get(f"{BASE_URL}/facts", params={"limit": limit, "max_length": max_length})
 
-    # Basic response checks
     assert response.status_code == 200
     data = response.json()
 
-    # Debug print to inspect the response data
     print(f"Response data: {data}")
 
     facts = data.get("data", [])
@@ -66,7 +64,6 @@ def test_get_multiple_facts_with_limit_and_max_length():
         assert len(
             fact["fact"]) <= max_length, f"Expected fact text length <= {max_length}, but got {len(fact['fact'])}"
 
-    # Print the result for debugging purposes
     print(f"Tested with limit={limit}, max_length={max_length}, received {len(facts)} facts.")
 
 
