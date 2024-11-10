@@ -4,19 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0470734e-4273-4e83-87ac-d381245cfb7d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/pythonProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output/results.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run_tests.ps1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run_tests.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_breeds_api.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_catfacts_api.py" afterDir="false" />
+    <list default="true" id="0470734e-4273-4e83-87ac-d381245cfb7d" name="Changes" comment="Adding the tests to tests the endpoints of the cat facts api">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/results.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output/results.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run_tests.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/run_tests.ps1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run_tests.sh" beforeDir="false" afterPath="$PROJECT_DIR$/run_tests.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,25 +34,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python tests.Python tests for test_catfacts_api.test_get_all_breeds.executor": "Run",
-    "Python tests.Python tests for test_catfacts_api.test_get_breeds_with_limit.executor": "Run",
-    "Python tests.Python tests for test_catfacts_api.test_get_fact_with_random_max_length.executor": "Run",
-    "Python tests.Python tests for test_catfacts_api.test_get_multiple_facts.executor": "Run",
-    "Python tests.Python tests for test_catfacts_api.test_get_multiple_facts.test_get_multiple_facts_with_limit_and_max_length.executor": "Run",
-    "Python tests.Python tests for test_catfacts_api.test_get_multiple_facts_with_limit_and_max_length.executor": "Run",
-    "Python tests.Python tests for test_catfacts_api.test_get_single_fact.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests for test_breeds_api.test_get_all_breeds.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_catfacts_api.test_get_all_breeds.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_catfacts_api.test_get_breeds_with_limit.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_catfacts_api.test_get_fact_with_random_max_length.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_catfacts_api.test_get_multiple_facts.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_catfacts_api.test_get_multiple_facts.test_get_multiple_facts_with_limit_and_max_length.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_catfacts_api.test_get_multiple_facts_with_limit_and_max_length.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_catfacts_api.test_get_single_fact.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\PC\Desktop\AutomationTest\ACT-Automation-Framework\pythonProject\src" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python tests.Python tests for test_breeds_api.test_get_all_breeds">
+    <configuration name="Python tests for test_breeds_api.test_get_all_breeds" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_breeds_api.test_get_all_breeds&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests for tests.test_catfacts_api.test_get_all_breeds" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
@@ -138,10 +147,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_breeds_api.test_get_all_breeds" />
         <item itemvalue="Python tests.Python tests for tests.test_catfacts_api.test_get_breeds_with_limit" />
         <item itemvalue="Python tests.Python tests for tests.test_catfacts_api.test_get_all_breeds" />
         <item itemvalue="Python tests.Python tests for tests.test_catfacts_api.test_get_multiple_facts_with_limit_and_max_length" />
-        <item itemvalue="Python tests.Python tests for tests.test_catfacts_api.test_get_multiple_facts" />
         <item itemvalue="Python tests.Python tests for tests.test_catfacts_api.test_get_multiple_facts" />
       </list>
     </recent_temporary>
@@ -162,9 +171,22 @@
       <option name="presentableId" value="Default" />
       <updated>1731008713000</updated>
     </task>
+    <task id="LOCAL-00001" summary="Adding the tests to tests the endpoints of the cat facts api">
+      <option name="closed" value="true" />
+      <created>1731181020104</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1731181020104</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.ps1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Adding the tests to tests the endpoints of the cat facts api" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding the tests to tests the endpoints of the cat facts api" />
   </component>
 </project>
